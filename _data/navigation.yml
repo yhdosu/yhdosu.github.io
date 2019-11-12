@@ -1,19 +1,7 @@
 header:
   - titles:
-      en      : &EN       NLP
-    url: /nlp.html
-    
-  - titles:
-      en      : &EN       WINE
-    url: /wine.html
-
-  - titles:
-      en      : &EN       MUSIC
-    url: /music.html
-
-  - titles:
       # @start locale config
-      en      : &EN       ARCHIVE
+      en      : &EN       LIST_VIEW
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -27,7 +15,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-      fr      : &FR       Archives
+      fr      : &FR       LIST_VIEW
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
