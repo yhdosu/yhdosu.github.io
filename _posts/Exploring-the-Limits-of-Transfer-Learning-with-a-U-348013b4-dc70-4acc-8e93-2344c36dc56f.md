@@ -14,8 +14,11 @@ Last Edited Time: Nov 12, 2019 3:58 PM
     - 입출력 방법 : text-to-text(encoder-decoder)
         - 모든 문제를 text-to-text 형태로 변경해서 해결하도록 함
         - 예를 들어, classification 문제도 라벨을 분류하는게 아니라 decoder에서 text를 생성해 내는 형태
+
 2. Summarization, QA, Text Classification 등에서 SOTA를 달성
+
 3. 관련 코드: [https://github.com/google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
+
 
 # 1. Introduction
 
@@ -23,6 +26,8 @@ Last Edited Time: Nov 12, 2019 3:58 PM
 2. Seq-to-Seq 변천사 및 특징, 그리고 왜 text-to-text 까지 왔는가.
 3. 쭉 읽고 다 이해가 가면 당신은 nlp 도메인 최신 모델들을 잘 따라오고 있는 사람~
 4. 모두연 발표시 간단히 정리한 PPT(Perceptron to ALBERT in NLP) 발표 예정
+
+
 
 # 2. Setup
 
@@ -67,6 +72,8 @@ Last Edited Time: Nov 12, 2019 3:58 PM
         - 찾아야 할 pronoun의 위치를 표시해야 함
         - Input : "...because *thay* feared violence..."
 3. 그 외에도 WSC를 위해서는 Ture 라벨만 사용한다던지 등의, 테스크별 추가 변환을 진행한 것들이 있음
+
+
 
 # 3. Experiments
 
